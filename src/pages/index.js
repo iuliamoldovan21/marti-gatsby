@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import Helmet from 'react-helmet'
 
+import AppComponent from '../components/component'
 import projectStyles from '../style.module.css'
 import styles from './index.module.css'
 
@@ -88,9 +89,10 @@ const Page = () => {
         tÂ  dsnflksdÂ 
       </span>
       <img
-        src="https://play.teleporthq.io/static/img/default.png"
+        src="/playground_assets/png-1200h.png"
         className={` ${projectStyles.thqImage} ${styles.image} `}
       />
+      <AppComponent src="/playground_assets/png-1200h.png"></AppComponent>
     </div>
   )
 }
